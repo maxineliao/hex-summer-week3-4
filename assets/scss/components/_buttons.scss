@@ -1,0 +1,20 @@
+.btn-primary {
+    display: block;
+    width: fit-content;
+    background-color: $primary-color;
+    color: $white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: all ease 200ms;
+    border: none;
+    &:hover {
+        background-color: $primary-dark;
+    }
+}
+.btn-sm {
+    padding: 6px 12px;
+}
+.btn-lg {
+    padding: 16px ;
+    width: min(432px,100%);
+}

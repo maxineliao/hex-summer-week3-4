@@ -1,0 +1,27 @@
+.optical {
+    .product-list {
+        .colomn {
+            width: 25%;
+            padding-inline: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .optical {
+        .product-list {
+            .colomn {
+                width: 50%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px){
+    .optical {
+        .product-list {
+            .colomn {
+                width: 100%;
+            }
+        }
+    }
+}

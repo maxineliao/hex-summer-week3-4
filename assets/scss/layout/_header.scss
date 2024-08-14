@@ -1,0 +1,46 @@
+.header {
+    background: $primary-color;
+    font-size: 1.25rem;
+	a {
+		display: block;
+	}
+	.logo {
+		max-width: 80px;
+		padding-block: $padding*4;
+	}
+	.nav-item a{
+		color: $white;
+		padding: 25px 32px;
+		transition: all 200ms ease-in-out;
+		&:hover {
+			background-color: $primary-dark;
+		}
+	}
+	.row {
+		margin-right: -32px;
+	}
+}
+@media screen and (max-width: 576px){
+	.header {
+		font-size: 1rem;
+		.container {
+			width: 100%;
+		}
+		.logo {
+			padding-left: 12px;
+		}
+		.nav-item {
+			width: 50%;
+			a {
+				width: 100%;
+				padding: 12px 0;
+				text-align: center;
+				border: 1px solid $white;
+			}
+		}
+		.row {
+			margin-right: 0;
+			width: 100%;
+		}
+	}
+ }

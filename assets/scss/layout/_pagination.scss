@@ -1,0 +1,30 @@
+.pagination {
+    .page-item {
+        a {
+        display: block;
+        color: #555555;
+        padding: $padding*3 $padding*4;
+        border: 1px solid #555555;
+        }
+        &:last-child a {
+            background-color: #F2F2F2;
+        }
+        &.active {
+            background-color: $black;
+            a {
+                color: $white;
+            }
+        }
+    } 
+}
+@media screen and (max-width: 576px){
+    .pagination {
+        margin-bottom: $margin*6;
+        margin-top: $margin*10;
+        .page-item {
+            a {
+                padding: 12px 14px;
+            }
+        }
+    }
+}

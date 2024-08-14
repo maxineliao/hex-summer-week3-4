@@ -1,0 +1,27 @@
+.sunglasses {
+    .product-list {
+        .colomn {
+            width: 33.3%;
+            padding-inline: 12px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sunglasses {
+        .product-list {
+            .colomn {
+                width: 50%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px){
+    .sunglasses {
+        .product-list {
+            .colomn {
+                width: 100%;
+            }
+        }
+    }
+}
