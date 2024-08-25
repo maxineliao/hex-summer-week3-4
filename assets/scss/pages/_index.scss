@@ -102,7 +102,7 @@
 	}
 }
 .collab {
-	background-image: url(/assets/images/index-bg.png);
+	background-image: url(../assets/images/index-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	a {
@@ -117,7 +117,7 @@
 }
 @media screen and (max-width: 768px){
 	.collab {
-		background-image: url(/assets/images/index-bg-md.png);
+		background-image: url(../assets/images/index-bg-md.png);
 		.card-list {
 			flex-direction: column;
 		}
