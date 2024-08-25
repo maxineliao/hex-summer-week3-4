@@ -16,17 +16,19 @@
 	}
 }
 .hero-banner {
-	padding: 296px 0;
-	background-image: url(/assets/images/home-hero-header.png);
+	background-image: url(../assets/images/home-header.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	.container {
+		height: 787px;
+	}
 	.subtitle {
 		font-size: 2.25rem;
 	}
 }
 @media screen and (max-width: 768px){
 	.hero-banner {
-		background-image: url(/assets/images/home-header-sm.png);
+		background-image: url(../assets/images/home-header-sm.png);
 	}
 }
 @media screen and (max-width: 576px){
@@ -78,7 +80,7 @@
 		padding-inline: 12px;
 	}
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
 	.classics {
 		.card-list {
 			flex-direction: column;
